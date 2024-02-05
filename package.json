@@ -1,0 +1,12 @@
+{
+  "name": "creating-a-git-repo",
+  "version": "1.0.0",
+  "description": "“Creativity is inventing, experimenting, growing, taking risks, breaking rules, making mistakes, and having fun.” – Mary Lou Cook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
