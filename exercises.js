@@ -14,11 +14,12 @@ let flattenArray = arrays.reduce(function(accumulator, currentArray) {
 let func1 = flattenArray;
 
 
-/* ---------------------------- Section Divider ----------------------------- */
-
 // 3-2. loop(value, test, update, body)
 
-// Your code here.
+loop(3, n => n > 0, n => n - 1, console.log);
+// → 3
+// → 2
+// → 1
 
 // Pass a number, first function, second function, and a third function (console.log)
 function loop(value, testFunction, updateFunction, bodyFunction) {
@@ -39,7 +40,6 @@ function loop(value, testFunction, updateFunction, bodyFunction) {
 let func2 = loop(3, n => n > 0, n => n - 1, console.log);
 
 
-/* ---------------------------- Section Divider ----------------------------- */
 
 function everyLoop(array, test){
 
@@ -77,7 +77,6 @@ let func3 = everyLoop([2, 4, 16], n => n < 10);
 let func4 = everySome([], n => n < 10);
 // → true
 
-/* ---------------------------- Section Divider ----------------------------- */
 
 // Exporting functions
 export{ func1, func2, func3, func4 };
