@@ -3,9 +3,8 @@ exercises.js
 
 // An array containing arrays
 let arrays = [[1, 2, 3], [4, 5], [6]];
-
 // Your code here.
-
+// → [1, 2, 3, 4, 5, 6]
 // Using reduce to flatten the array using the reduce and concat method + the spread operator
 let flattenArray = arrays.reduce(function(accumulator, currentArray) {
     return accumulator.concat(...currentArray);
